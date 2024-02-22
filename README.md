@@ -10,3 +10,8 @@ This script was only tested on Ubuntu 22.04.
 5.  Updates APT
 6.  Installs all compatible tools (883 tools in total) as well as VSCode, Filezilla, and git
 
+## Manual kali tool installation / update after script is complete:
+apt install -t kali-rolling <package-name>
+apt upgrade -t kali-rolling <package-name>
+
+
